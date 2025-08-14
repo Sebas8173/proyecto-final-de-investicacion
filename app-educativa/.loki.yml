@@ -1,0 +1,31 @@
+{
+  "configurations": {
+    "chrome.laptop": {
+      "target": "chrome.app",
+      "width": 1366,
+      "height": 768,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    "chrome.mobile": {
+      "target": "chrome.app",
+      "width": 375,
+      "height": 667,
+      "deviceScaleFactor": 2,
+      "mobile": true
+    },
+    "firefox.laptop": {
+      "target": "firefox.app",
+      "width": 1366,
+      "height": 768,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    }
+  },
+  "diffingEngine": "looks-same",
+  "threshold": 0.1,
+  "fileNameFormatter": "{configurationName}-{kind}",
+  "outputDir": "./loki-screenshots",
+  "referenceDir": "./loki-reference",
+  "diffDir": "./loki-diff"
+}

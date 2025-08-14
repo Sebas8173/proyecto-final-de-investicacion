@@ -1,0 +1,69 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - heading "Sistema Educativo" [level=1]
+  - paragraph: Gestión de materias, tareas y calificaciones
+- navigation:
+  - button "Materias"
+  - button "Tareas"
+  - button "Notas"
+  - button "Estadísticas"
+- main:
+  - paragraph: Total Materias
+  - paragraph: "4"
+  - paragraph: Total Tareas
+  - paragraph: "4"
+  - paragraph: Total Notas
+  - paragraph: "10"
+  - paragraph: Promedio General
+  - paragraph: "62.0"
+  - heading "Promedio por Materia" [level=3]
+  - application: Matemáticas Ciencias Historia Literatura 0 25 50 75 100
+  - heading "Distribución de Tipos de Tareas" [level=3]
+  - application: Examen 25% Tarea 25% Proyecto 25% Quiz 25%
+  - heading "Tendencia de Promedios" [level=3]
+  - application: 17 ene 18 ene 19 ene 23 ene 24 ene 28 ene 29 ene 0 25 50 75 100
+  - heading "Distribución de Calificaciones" [level=3]
+  - application: 50% 40% 10%
+  - heading "Estadísticas Detalladas por Materia" [level=3]
+  - table:
+    - rowgroup:
+      - row "Materia Promedio Nota Máxima Nota Mínima Total Tareas Estudiantes":
+        - cell "Materia"
+        - cell "Promedio"
+        - cell "Nota Máxima"
+        - cell "Nota Mínima"
+        - cell "Total Tareas"
+        - cell "Estudiantes"
+    - rowgroup:
+      - row "Matemáticas 71.7 92 42 2 4":
+        - cell "Matemáticas"
+        - cell "71.7"
+        - cell "92"
+        - cell "42"
+        - cell "2"
+        - cell "4"
+      - row "Ciencias 73.5 75 72 1 2":
+        - cell "Ciencias"
+        - cell "73.5"
+        - cell "75"
+        - cell "72"
+        - cell "1"
+        - cell "2"
+      - row "Historia 21.5 23 20 1 2":
+        - cell "Historia"
+        - cell "21.5"
+        - cell "23"
+        - cell "20"
+        - cell "1"
+        - cell "2"
+      - row "Literatura 0.0 0 0 0 0":
+        - cell "Literatura"
+        - cell "0.0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+- alert: Create Next App
+```

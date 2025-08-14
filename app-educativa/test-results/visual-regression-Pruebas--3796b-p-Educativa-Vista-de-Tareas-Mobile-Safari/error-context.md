@@ -1,0 +1,54 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - heading "Sistema Educativo" [level=1]
+  - paragraph: Gestión de materias, tareas y calificaciones
+- navigation:
+  - button "Materias"
+  - button "Tareas"
+  - button "Notas"
+  - button "Estadísticas"
+- main:
+  - heading "Tareas y Exámenes" [level=2]
+  - button "Nueva Tarea"
+  - text: "Filtrar por materia:"
+  - combobox:
+    - option "Todas las materias" [selected]
+    - option "Matemáticas"
+    - option "Ciencias"
+    - option "Historia"
+    - option "Literatura"
+  - text: "Filtrar por tipo:"
+  - combobox:
+    - option "Todos los tipos" [selected]
+    - option "Tarea"
+    - option "Examen"
+    - option "Proyecto"
+    - option "Quiz"
+  - heading "Examen de Álgebra" [level=3]
+  - text: Examen
+  - paragraph: Evaluación de conceptos básicos de álgebra
+  - text: "Matemáticas Vence: 19/01/2025 Puntos: 100 VENCIDA"
+  - button "Editar tarea"
+  - button "Eliminar tarea"
+  - heading "Tarea de Geometría" [level=3]
+  - text: Tarea
+  - paragraph: Ejercicios de geometría plana
+  - text: "Matemáticas Vence: 24/01/2025 Puntos: 50 VENCIDA"
+  - button "Editar tarea"
+  - button "Eliminar tarea"
+  - heading "Laboratorio de Química" [level=3]
+  - text: Proyecto
+  - paragraph: Práctica de reacciones químicas
+  - text: "Ciencias Vence: 29/01/2025 Puntos: 80 VENCIDA"
+  - button "Editar tarea"
+  - button "Eliminar tarea"
+  - heading "Quiz de Historia Antigua" [level=3]
+  - text: Quiz
+  - paragraph: Evaluación rápida sobre civilizaciones antiguas
+  - text: "Historia Vence: 17/01/2025 Puntos: 25 VENCIDA"
+  - button "Editar tarea"
+  - button "Eliminar tarea"
+- alert
+```

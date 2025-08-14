@@ -1,0 +1,169 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - heading "Sistema Educativo" [level=1]
+  - paragraph: Gestión de materias, tareas y calificaciones
+- navigation:
+  - button "Materias"
+  - button "Tareas"
+  - button "Notas"
+  - button "Estadísticas"
+- main:
+  - heading "Notas y Calificaciones" [level=2]
+  - button "Nueva Nota"
+  - text: "Filtrar por materia:"
+  - combobox:
+    - option "Todas las materias" [selected]
+    - option "Matemáticas"
+    - option "Ciencias"
+    - option "Historia"
+    - option "Literatura"
+  - text: "Filtrar por tarea:"
+  - combobox:
+    - option "Todas las tareas" [selected]
+    - option "Examen de Álgebra"
+    - option "Tarea de Geometría"
+    - option "Laboratorio de Química"
+    - option "Quiz de Historia Antigua"
+  - text: "Filtrar por estudiante:"
+  - combobox:
+    - option "Todos los estudiantes" [selected]
+    - option "Ana García"
+    - option "Carlos López"
+    - option "María Rodríguez"
+    - option "Luis Martínez"
+  - table:
+    - rowgroup:
+      - row "Estudiante Tarea Materia Puntaje Porcentaje Fecha Entrega Acciones":
+        - cell "Estudiante"
+        - cell "Tarea"
+        - cell "Materia"
+        - cell "Puntaje"
+        - cell "Porcentaje"
+        - cell "Fecha Entrega"
+        - cell "Acciones"
+    - rowgroup:
+      - row "Ana García Examen de Álgebra Examen Matemáticas 85 / 100 85% 18/01/2025":
+        - cell "Ana García"
+        - cell "Examen de Álgebra Examen"
+        - cell "Matemáticas"
+        - cell "85 / 100"
+        - cell "85%"
+        - cell "18/01/2025"
+        - cell:
+          - button "Editar nota"
+          - button "Eliminar nota"
+      - row "Carlos López Examen de Álgebra Examen Matemáticas 92 / 100 92% 18/01/2025":
+        - cell "Carlos López"
+        - cell "Examen de Álgebra Examen"
+        - cell "Matemáticas"
+        - cell "92 / 100"
+        - cell "92%"
+        - cell "18/01/2025"
+        - cell:
+          - button "Editar nota"
+          - button "Eliminar nota"
+      - row "María Rodríguez Examen de Álgebra Examen Matemáticas 78 / 100 78% 19/01/2025":
+        - cell "María Rodríguez"
+        - cell "Examen de Álgebra Examen"
+        - cell "Matemáticas"
+        - cell "78 / 100"
+        - cell "78%"
+        - cell "19/01/2025"
+        - cell:
+          - button "Editar nota"
+          - button "Eliminar nota"
+      - row "Luis Martínez Examen de Álgebra Examen Matemáticas 88 / 100 88% 18/01/2025":
+        - cell "Luis Martínez"
+        - cell "Examen de Álgebra Examen"
+        - cell "Matemáticas"
+        - cell "88 / 100"
+        - cell "88%"
+        - cell "18/01/2025"
+        - cell:
+          - button "Editar nota"
+          - button "Eliminar nota"
+      - row "Ana García Tarea de Geometría Tarea Matemáticas 45 / 50 90% 23/01/2025":
+        - cell "Ana García"
+        - cell "Tarea de Geometría Tarea"
+        - cell "Matemáticas"
+        - cell "45 / 50"
+        - cell "90%"
+        - cell "23/01/2025"
+        - cell:
+          - button "Editar nota"
+          - button "Eliminar nota"
+      - row "Carlos López Tarea de Geometría Tarea Matemáticas 42 / 50 84% 24/01/2025":
+        - cell "Carlos López"
+        - cell "Tarea de Geometría Tarea"
+        - cell "Matemáticas"
+        - cell "42 / 50"
+        - cell "84%"
+        - cell "24/01/2025"
+        - cell:
+          - button "Editar nota"
+          - button "Eliminar nota"
+      - row "María Rodríguez Laboratorio de Química Proyecto Ciencias 75 / 80 94% 28/01/2025":
+        - cell "María Rodríguez"
+        - cell "Laboratorio de Química Proyecto"
+        - cell "Ciencias"
+        - cell "75 / 80"
+        - cell "94%"
+        - cell "28/01/2025"
+        - cell:
+          - button "Editar nota"
+          - button "Eliminar nota"
+      - row "Luis Martínez Laboratorio de Química Proyecto Ciencias 72 / 80 90% 29/01/2025":
+        - cell "Luis Martínez"
+        - cell "Laboratorio de Química Proyecto"
+        - cell "Ciencias"
+        - cell "72 / 80"
+        - cell "90%"
+        - cell "29/01/2025"
+        - cell:
+          - button "Editar nota"
+          - button "Eliminar nota"
+      - row "Ana García Quiz de Historia Antigua Quiz Historia 23 / 25 92% 17/01/2025":
+        - cell "Ana García"
+        - cell "Quiz de Historia Antigua Quiz"
+        - cell "Historia"
+        - cell "23 / 25"
+        - cell "92%"
+        - cell "17/01/2025"
+        - cell:
+          - button "Editar nota"
+          - button "Eliminar nota"
+      - row "Carlos López Quiz de Historia Antigua Quiz Historia 20 / 25 80% 17/01/2025":
+        - cell "Carlos López"
+        - cell "Quiz de Historia Antigua Quiz"
+        - cell "Historia"
+        - cell "20 / 25"
+        - cell "80%"
+        - cell "17/01/2025"
+        - cell:
+          - button "Editar nota"
+          - button "Eliminar nota"
+  - heading "Comentarios" [level=3]
+  - text: Ana García Examen de Álgebra
+  - paragraph: Buen dominio de los conceptos básicos
+  - text: Carlos López Examen de Álgebra
+  - paragraph: Excelente trabajo
+  - text: María Rodríguez Examen de Álgebra
+  - paragraph: Necesita repasar algunos temas
+  - text: Luis Martínez Examen de Álgebra
+  - paragraph: Muy buen desempeño
+  - text: Ana García Tarea de Geometría
+  - paragraph: Excelente presentación
+  - text: Carlos López Tarea de Geometría
+  - paragraph: Buena resolución de problemas
+  - text: María Rodríguez Laboratorio de Química
+  - paragraph: Buen trabajo experimental
+  - text: Luis Martínez Laboratorio de Química
+  - paragraph: Necesita mejorar el reporte
+  - text: Ana García Quiz de Historia Antigua
+  - paragraph: Excelente conocimiento histórico
+  - text: Carlos López Quiz de Historia Antigua
+  - paragraph: Buen esfuerzo
+- alert
+```
