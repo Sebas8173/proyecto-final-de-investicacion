@@ -159,22 +159,6 @@ app-educativa/
 └── test-results/                # Screenshots y reportes
 ```
 
-##  Scripts 
-
-```json
-{
-  "dev": "next dev",
-  "build": "next build", 
-  "start": "next start",
-  "test:visual": "playwright test",
-  "test:visual:ui": "playwright test --ui",
-  "test:visual:debug": "playwright test --debug", 
-  "test:percy": "percy exec -- playwright test tests/percy-visual.spec.ts",
-  "test:loki": "loki test",
-  "test:loki:update": "loki update"
-}
-```
-
 ##  Métricas de Éxito
 
 ### Resultados Demostrados:
